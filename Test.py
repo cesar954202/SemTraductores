@@ -13,6 +13,15 @@ while salida !=0:
     archivo = open(entrada, "r")
     contenido = archivo.read()
     print contenido
+
+
+    pos = int(input("Imprimir pos: "))
+    pos2 = int(input("Imprimir pos2: "))
+    aux = estados[pos][pos2]
+    print aux
+
+    for caracter in contenido:
+        print caracter
     
     salida = int(input("Desea salir presione 0: "))
 
