@@ -323,6 +323,7 @@ while salida !=0:
         elif (estado == 38):
             aux = token(datToken, 7)
             tokens.append(aux)
+            print("ERROR DE SINTAXIS____________________________")
             datToken = ""
         elif (estado == 40):
             aux = token(datToken, 5)
@@ -333,7 +334,7 @@ while salida !=0:
 
         estado  = nuevoEstado
         indice += 1
-        print "Se pasa a EStado: ",estado
+        print "Se pasa a estado: ",estado
         print "Contenido token: ", datToken
 
 
