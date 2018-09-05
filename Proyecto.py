@@ -354,7 +354,3 @@ while salida !=0:
 
     salida = int(input("Desea salir presione 0: "))
     estado = 0
-    nuevoEstado = 0
-    entrada = 0
-    del tokens[:]
-    datToken = ""
